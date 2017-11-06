@@ -47,13 +47,16 @@ hr {
     height: 450px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 50px;
+}
 
-}
+
 body {
-	background-image: url("../images/darkness/darkness.png");
+    background-image: url("../images/darkness/darkness.png");
 }
+
+
 .box2 {
     position: absolute;
     background-color: white;
@@ -69,23 +72,26 @@ body {
 }
 
 .githubpicture {
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     margin-top: 90px;
+    padding-left: 20px;
     
 }
 
 .linkdelnicon {
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     margin-top: 90px;
+    margin-left: 15px;
     
 }
 
 .stackoverflowicon {
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     margin-top: 90px;
+    margin-left: 20px;
     
 }
 
@@ -96,14 +102,410 @@ body {
 
 #secondH1 {
     color: #4aaaa5;
-    line-height: 9;
-    position: relative;
-    top: 15px;
-    left: 175px;
+    line-height: 8;
+    float: left;
+    top: 20px;
+    left: 200px;
     z-index: 1;
+    position: relative;
+    font-size: 225%;
+    
 }
 
 #whiteStuff {
     background-color: white;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -27px;
+    width: 1740px;
+    height: 89px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -500px;
+    text-align: right;
+
+}
+
+#firstH2 {
+
+    color: #4aaaa5;
+    line-height: -10;
+    float: right;
+    top: 150px;
+    left: 950px;
+    z-index: 1;
     position: absolute;
+    font-size: 125%;
+
+    
+
+}
+
+.footer {
+   height: 80px; 
+    width:199px;
+    margin-top: -20px;
+    margin-left: -975px;
+    left: 0;
+    bottom: 0; 
+    background-color: grey;
+    padding-right: 1000px;
+    padding-left: 200px;
+}
+
+
+#paragraph1 {
+
+    padding-top: 120px;
+    margin-left: 200px;
+
+}
+
+#borderFooter {
+
+
+background-color: #4aaaa5;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 310px;
+    width: 1320px;
+    height: 10px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -1000px;
+    text-align: center;
+}
+
+
+#aboutSlash {
+
+padding-top: 30px;
+color: #777777;
+font-size: 110%;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+padding-right: 105px;
+word-spacing: 20px;
+
+}
+
+
+
+
+#thirdHr {
+
+    top: -110px;
+    border: 2px solid lightgrey;
+
+    left: -740px;
+    width: 230%;
+}
+
+#footerCopyright {
+    margin-right: 20px;
+
+    padding-left: 500px;
+    text-align: center;
+    font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+}
+
+/* Contact.html linked to this style.css */
+
+
+#contactHeader {
+
+     position: absolute;
+    left: 165px;
+    top: 0px;
+    width: 280px;
+    height: 89px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+
+
+#contactHr {
+
+    top: 80px;
+    position: relative;
+    left: -5px;
+    border: 1px solid lightgrey;
+
+
+
+}
+
+#contactBox {
+
+    position: absolute;
+    background-color: white;
+    width: 650px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    left: 140px;
+    top: 110px;
+    height: 450px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 120%;
+    line-height: 50px;
+    
+
+
+}
+
+
+#contactH1  {
+
+     color: #4aaaa5;
+    line-height: 8;
+    float: left;
+    top: 20px;
+    left: 200px;
+    z-index: 1;
+    position: relative;
+    font-size: 225%;
+
+
+}
+
+form {
+
+    margin-top: 100px;
+
+}
+
+
+#box3 {
+
+    position: absolute;
+    background-color: white;
+    width: 270px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    top: 110px;
+    float: right;
+    right: 100px;
+    height: 200px;
+
+
+}
+
+
+#whiteStuff2  {
+
+     background-color: white;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -27px;
+    width: 1740px;
+    height: 89px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -500px;
+    text-align: right;
+
+
+
+}
+
+
+#aboutSlash2  {
+    padding-top: 30px;
+color: #777777;
+font-size: 110%;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+padding-right: 105px;
+word-spacing: 20px;
+
+}
+
+#portfolioDiv {
+
+
+     position: absolute;
+    left: 165px;
+    top: 0px;
+    width: 280px;
+    height: 89px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+
+#portfolioBox {
+
+      position: absolute;
+    background-color: white;
+    width: 650px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    left: 140px;
+    top: 110px;
+    height: 450px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 120%;
+    line-height: 50px;
+
+
+}
+
+
+#githubpictureContact {
+
+height: 65px;
+    width: 65px;
+    margin-top: 150px;
+    padding-left: 900px;
+    position: absolute;
+
+}
+
+
+
+#whitestuff3  {
+
+
+    position: absolute;
+    background-color: white;
+    width: 270px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    top: 110px;
+    float: right;
+    right: -100px;
+    height: 200px;
+}
+
+
+#linkdelniconContact  {
+
+height: 65px;
+    width: 65px;
+    margin-top: 150px;
+    padding-left: 800px;
+    position: absolute;
+    
+
+}
+
+
+#stackoverflowContact {
+
+height: 65px;
+    width: 65px;
+    margin-top: 150px;
+    padding-left: 700px;
+    position: absolute;
+}
+
+
+
+#whiteStuff3Portfolio {
+
+     background-color: white;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -27px;
+    width: 1740px;
+    height: 89px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -500px;
+    text-align: right;
+
+
+
+
+}
+
+
+#aboutSlash4 {
+
+
+    padding-top: 30px;
+color: #777777;
+font-size: 110%;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+padding-right: 105px;
+word-spacing: 20px;
+}
+
+
+#thirdHr {
+
+
+     top: -30px;
+    color: #DCDCDC;
+    width: 20%;
+    left: 335px;
+    border: 1px solid lightgrey;
+
+}
+
+
+#firstH2Contact {
+
+
+     color: #4aaaa5;
+    line-height: -10;
+    float: right;
+    top: 150px;
+    left: 950px;
+    z-index: 1;
+    position: absolute;
+    font-size: 125%;
+}
+
+#footerContact {
+
+    height: 80px; 
+    width:1260px;
+    margin-top: 450px;
+    margin-left: -975px;
+    left: 0;
+    bottom: 0; 
+    background-color: grey;
+    padding-right: 1000px;
+    padding-left: 200px;
+}
+
+
+#borderFooterContact {
+
+background-color: #4aaaa5;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -90px;
+    width: 2400px;
+    height: 10px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -1000px;
+    text-align: center;
 }
