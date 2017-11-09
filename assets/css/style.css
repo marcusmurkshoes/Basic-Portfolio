@@ -11,10 +11,24 @@
     margin-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 219%;
+    line-height: 2;
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #mainSection {
 	position: absolute;
@@ -71,29 +85,41 @@ body {
 
 }
 
-.githubpicture {
-    height: 65px;
-    width: 65px;
-    margin-top: 90px;
-    padding-left: 20px;
-    
+#socialPics1 {
+
+position: absolute;
+width: 65px;
+height: 65px;
+
+
+
 }
 
-.linkdelnicon {
-    height: 65px;
-    width: 65px;
-    margin-top: 90px;
-    margin-left: 15px;
-    
+
+#socialPics2 {
+position: absolute;
+width: 65px;
+height: 65px;
+
+
+
 }
 
-.stackoverflowicon {
-    height: 65px;
-    width: 65px;
-    margin-top: 90px;
-    margin-left: 20px;
-    
+
+#socialPics3 {
+
+position: absolute;
+width: 65px;
+height: 65px;
+float: right;
+margin-left: 700px;
+
+
+
+
 }
+
+
 
 #secondHr {
     top: -120px;
@@ -116,7 +142,7 @@ body {
     background-color: white;
     margin-bottom: 25px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 75px;
     margin-top: -27px;
     width: 1740px;
     height: 89px;
@@ -124,7 +150,7 @@ body {
     top: 0px;
     margin-left: -500px;
     text-align: right;
-
+    padding-bottom: 10px;
 }
 
 #firstH2 {
@@ -143,15 +169,17 @@ body {
 }
 
 .footer {
-   height: 80px; 
-    width:199px;
-    margin-top: -20px;
+   height: 85px; 
+    width:500px;
+    margin-top: 160px;
     margin-left: -975px;
     left: 0;
     bottom: 0; 
     background-color: grey;
     padding-right: 1000px;
     padding-left: 200px;
+    float: right;
+    clear: both;
 }
 
 
@@ -166,16 +194,16 @@ body {
 
 
 background-color: #4aaaa5;
-    margin-bottom: 1px;
+    margin-bottom: -300px;
     padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 310px;
+    
+    margin-top: 500px;
     width: 1320px;
-    height: 10px;
+    height: 30px;
     z-index: 1;
     top: 0px;
-    margin-left: -1000px;
-    text-align: center;
+    float: left;
+    
 }
 
 
@@ -194,10 +222,8 @@ word-spacing: 20px;
 
 
 #thirdHr {
-
-    top: -110px;
     border: 2px solid lightgrey;
-
+    margin-top: 100px;
     left: -740px;
     width: 230%;
 }
@@ -508,5 +534,5 @@ background-color: #4aaaa5;
     top: 0px;
     margin-left: -1000px;
     text-align: center;
-    
+
 }
