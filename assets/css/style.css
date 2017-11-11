@@ -92,8 +92,8 @@ position: absolute;
 width: 65px;
 height: 65px;
 float: left;
-margin-top: 175px;
-margin-left: 900px;
+margin-top: 150px;
+margin-left: 890px;
 
 
 
@@ -102,11 +102,11 @@ margin-left: 900px;
 
 #socialPics2 {
 position: absolute;
-width: 65px;
-height: 65px;
+width: 70px;
+height: 70px;
 float: left;
-margin-top: 175px;
-margin-left: 1000px;
+margin-top: 150px;
+margin-left: 975px;
 
 
 }
@@ -115,11 +115,11 @@ margin-left: 1000px;
 #socialPics3 {
 
 position: absolute;
-width: 65px;
-height: 65px;
+width: 60px;
+height: 60px;
 float: right;
-margin-left: 800px;
-margin-top: 175px;
+margin-left: 790px;
+margin-top: 150px;
 
 
 
@@ -177,28 +177,47 @@ margin-top: 175px;
 
 }
 
-.footer {
-    margin-top: 465px;
+ /*margin-top: 465px;
   right: 0;
   left: 0;
   background-color: #666666;
   text-align: center;
   position: sticky;
-  padding-bottom: 90px;
+  padding-bottom: 90px;*/
+
+.footer {
+    height: 80px; 
+    width:1260px;
+    margin-top: 450px;
+    margin-left: -975px;
+    left: 0;
+    bottom: 0; 
+    background-color: grey;
+    padding-right: 1000px;
+    padding-left: 200px;
+
 }
 
 
 #paragraph1 {
 
-    padding-top: 120px;
+    padding-top: 100px;
     margin-left: 200px;
 
 }
+/*background-color: #4aaaa5;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -90px;
+    width: 2400px;
+    height: 10px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -1000px;
+    text-align: center;*/
 
-#borderFooter {
-
-
-background-color: #dddddd;
+    /*background-color: #4aaaa5;
     padding-left: 50px;
 
     margin-top: 420px;
@@ -206,19 +225,33 @@ background-color: #dddddd;
     height: 8px;
     
   
-    float: left;
-    
+    float: left;*/
+#borderFooter {
+
+
+background-color: #4aaaa5;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -90px;
+    width: 2400px;
+    height: 10px;
+    z-index: 1;
+    top: 0px;
+    margin-left: -1000px;
+    text-align: center;
 }
 
 
-#aboutSlash {
+#aboutSlash a {
 
-padding-top: 30px;
 color: #777777;
 font-size: 110%;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-padding-right: 105px;
-word-spacing: 20px;
+line-height: 6;
+text-decoration: none;
+padding-left: 19px;
+margin-right: 50px;
 
 }
 
@@ -228,7 +261,7 @@ word-spacing: 20px;
 #thirdHr {
     border: 2px solid lightgrey;
     margin-top: 150px;
-    left: -740px;
+    margin-left: 590px;
     width: 230%;
 }
 
@@ -241,6 +274,36 @@ word-spacing: 20px;
 
 
 }
+
+
+#fourthHr {
+
+
+background-color: lightgrey;
+    padding-left: 50px;
+    position: absolute;
+    width: 575px;
+    height: 3px;
+    margin-left: 199px;
+    margin-top: -30px;
+
+
+}
+
+#placeHolder {
+
+position: absolute;
+width: 145px;
+height: 145px;
+margin-top: 160px;
+margin-left: 55px;
+
+
+}
+
+
+
+
 
 /* Contact.html linked to this style.css */
 
@@ -353,13 +416,14 @@ form {
 }
 
 
-#aboutSlash2  {
-    padding-top: 30px;
-color: #777777;
+#aboutSlash2 a {
+    color: #777777;
 font-size: 110%;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-padding-right: 105px;
-word-spacing: 20px;
+line-height: 6;
+text-decoration: none;
+padding-left: 19px;
+margin-right: 50px;
 
 }
 
