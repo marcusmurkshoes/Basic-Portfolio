@@ -2,7 +2,7 @@
 	 position: absolute;
     left: 165px;
     top: 0px;
-    width: 280px;
+  
     height: 89px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -13,6 +13,7 @@
     padding-right: 25px;
     font-size: 219%;
     line-height: 2;
+    font-weight: bold;
 
 
 
@@ -90,6 +91,9 @@ body {
 position: absolute;
 width: 65px;
 height: 65px;
+float: left;
+margin-top: 175px;
+margin-left: 900px;
 
 
 
@@ -100,7 +104,9 @@ height: 65px;
 position: absolute;
 width: 65px;
 height: 65px;
-
+float: left;
+margin-top: 175px;
+margin-left: 1000px;
 
 
 }
@@ -112,7 +118,8 @@ position: absolute;
 width: 65px;
 height: 65px;
 float: right;
-margin-left: 700px;
+margin-left: 800px;
+margin-top: 175px;
 
 
 
@@ -135,6 +142,7 @@ margin-left: 700px;
     z-index: 1;
     position: relative;
     font-size: 225%;
+    font-weight: bold;
     
 }
 
@@ -158,28 +166,25 @@ margin-left: 700px;
     color: #4aaaa5;
     line-height: -10;
     float: right;
-    top: 150px;
+    top: 170px;
     left: 950px;
     z-index: 1;
     position: absolute;
-    font-size: 125%;
+    font-size: 200%;
+    font-weight: bold;
 
     
 
 }
 
 .footer {
-   height: 85px; 
-    width:500px;
-    margin-top: 160px;
-    margin-left: -975px;
-    left: 0;
-    bottom: 0; 
-    background-color: grey;
-    padding-right: 1000px;
-    padding-left: 200px;
-    float: right;
-    clear: both;
+    margin-top: 465px;
+  right: 0;
+  left: 0;
+  background-color: #666666;
+  text-align: center;
+  position: sticky;
+  padding-bottom: 90px;
 }
 
 
@@ -193,15 +198,14 @@ margin-left: 700px;
 #borderFooter {
 
 
-background-color: #4aaaa5;
-    margin-bottom: -300px;
+background-color: #dddddd;
     padding-left: 50px;
-    
-    margin-top: 500px;
+
+    margin-top: 420px;
     width: 1320px;
-    height: 30px;
-    z-index: 1;
-    top: 0px;
+    height: 8px;
+    
+  
     float: left;
     
 }
@@ -223,7 +227,7 @@ word-spacing: 20px;
 
 #thirdHr {
     border: 2px solid lightgrey;
-    margin-top: 100px;
+    margin-top: 150px;
     left: -740px;
     width: 230%;
 }
@@ -233,7 +237,7 @@ word-spacing: 20px;
 
     padding-left: 500px;
     text-align: center;
-    font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 
 }
