@@ -64,6 +64,7 @@ hr {
     color: #777777;
     font-size: 120%;
     line-height: 50px;
+    overflow: auto;
 }
 
 
@@ -848,3 +849,4 @@ margin-left: 185px;
     color: lightgrey;
     font-size: 84%
 }
+
